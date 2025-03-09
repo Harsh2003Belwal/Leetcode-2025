@@ -7,4 +7,4 @@ def two_sum(nums, target):
             return[mapping[complement], i]
         mapping[num]=i
         
-print(two_sum([1, 2, 4], 6)) 
+print(two_sum([1, 2, 4], 6))  #if target not found will return None
